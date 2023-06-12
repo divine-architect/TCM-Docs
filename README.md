@@ -62,7 +62,7 @@ Here are some additional resources for the bot:
 
 - [Invite Link](https://t.ly/qWsI): Use this link to invite the bot to your Discord server.
 - [Discord Support Server](https://discord.gg/A3qtmCK4EK): Join the support server to get assistance or discuss the bot.
-- [GitHub Repository]([https://www.github.com](https://github.com/divine-architect/TCM-Docs)): Visit the bot's GitHub repository for more information and to contribute to its development.
+- [GitHub Repository](https://github.com/divine-architect/TCM-Docs): Visit the bot's GitHub repository for more information and to contribute to its development.
 
 That's it! You're now ready to use the bot and explore its various features. If you have any questions or need further assistance, feel free to reach out in the support server.
 
