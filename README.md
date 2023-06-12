@@ -1,4 +1,4 @@
-# Bot Documentation
+# The Computing Machine Documentation
 
 Welcome to the documentation for the Bot! This guide will provide you with an overview of the bot's features and how to use them effectively.
 
@@ -19,44 +19,44 @@ The bot provides several commands to perform various tasks. Here's an overview o
 
 The calculus commands allow you to solve basic calculus problems. Here are the available calculus commands:
 
-- `!calculus differentiation`: Find the derivative of a given function.
-- `!calculus integrate`: Integrate a function indefinitely.
-- `!calculus integrate_finite`: Integrate a function over a finite interval.
+- `/calculus differentiation`: Find the derivative of a given function.
+- `/calculus integrate`: Integrate a function indefinitely.
+- `/calculus integrate_finite`: Integrate a function over a finite interval.
 
 ### Math
 
 The math commands help you solve basic mathematical problems. Here are the available math commands:
 
-- `!math evaluate`: Evaluate simple mathematical expressions. Leave spaces between each element of the expression.
-- `!math average`: Find the average of a list of integers.
-- `!math graph`: Plot the graph of a function. Use Pythonic expression for your function, where `x` and `y` variables are supported.
-- `!math quadratic`: Solve quadratic equations.
-- `!math hash`: Hash a string using different algorithms. Supported algorithms are MD5, SHA1, and SHA256.
-- `!math generation`: Generate a random mathematical expression.
+- `/math evaluate`: Evaluate simple mathematical expressions. Leave spaces between each element of the expression.
+- `/math average`: Find the average of a list of integers.
+- `/math graph`: Plot the graph of a function. Use Pythonic expression for your function, where `x` and `y` variables are supported.
+- `/math quadratic`: Solve quadratic equations.
+- `/math hash`: Hash a string using different algorithms. Supported algorithms are MD5, SHA1, and SHA256.
+- `/math generation`: Generate a random mathematical expression.
 
 ### Utility
 
 The utility commands provide basic utility functions for conversions and encoding/decoding. Here are the available utility commands:
 
-- `!utility unit_convert`: Easily convert between different units. Supported units include length, weight, volume, temperature, and more.
-- `!utility base_convert`: Convert numbers between different number bases.
-- `!utility encode`: Encode a string using different encoding schemes.
-- `!utility decode`: Decode an encoded string using different encoding schemes.
+- `/utility unit_convert`: Easily convert between different units. Supported units include length, weight, volume, temperature, and more.
+- `/utility base_convert`: Convert numbers between different number bases.
+- `/utility encode`: Encode a string using different encoding schemes.
+- `/utility decode`: Decode an encoded string using different encoding schemes.
 
 ### Processing
 
 The processing commands allow you to perform various data processing tasks. Here are the available processing commands:
 
-- `!processing ocr`: Perform OCR on a given url of an imag
-- `!processing code_exec`: Execute code in the language of your choice using Piston 
-- `!processing screenshot`: Take screenshot of a website rmeotely.
+- `/processing ocr`: Perform OCR on a given url of an imag
+- `/processing code_exec`: Execute code in the language of your choice using Piston 
+- `/processing screenshot`: Take screenshot of a website rmeotely.
 
 ### Generation
 
 The generation commands enable you to generate random data or expressions. Here are the available generation commands:
 
-- `!generation complete`: Complete a given text blob using A
-- `!generation code_gen`: Generate code from inputted code.
+- `/generation complete`: Complete a given text blob using A
+- `/generation code_gen`: Generate code from inputted code.
 
 ## Additional Resources
 
