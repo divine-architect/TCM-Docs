@@ -39,9 +39,7 @@ The math commands help you solve basic mathematical problems. Here are the avail
 The utility commands provide basic utility functions for conversions and encoding/decoding. Here are the available utility commands:
 
 - `/utility unit_convert`: Easily convert between different units. Supported units include length, weight, volume, temperature, and more.
-- `/utility base_convert`: Convert numbers between different number bases.
-- `/utility encode`: Encode a string using different encoding schemes.
-- `/utility decode`: Decode an encoded string using different encoding schemes.
+- `/utility binary to hex to octahedral to decimal`: Convert integers between different bases
 
 ### Processing
 
