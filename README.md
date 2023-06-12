@@ -1,25 +1,71 @@
-The Computing Machine Discord Bot
+# Bot Documentation
 
-The Computing Machine is a Python-based Discord bot designed to assist users with various computational tasks. It offers a range of functions for solving calculus problems, performing mathematical calculations, and providing basic utility services. The bot also incorporates AI code generation and text completion capabilities.
-Features
-1. Calculus
+Welcome to the documentation for the Bot! This guide will provide you with an overview of the bot's features and how to use them effectively.
 
-The Calculus module of The Computing Machine allows users to solve calculus problems efficiently. It supports both differentiation and integration, accommodating both definite and indefinite calculations. By providing the appropriate input, users can obtain the derivative or integral of a given function.
-2. Math
+## Table of Contents
+- [Commands](#commands)
+  - [Calculus](#calculus)
+  - [Math](#math)
+  - [Utility](#utility)
+  - [Processing](#processing)
+  - [Generation](#generation)
+- [Additional Resources](#additional-resources)
 
-The Math module provides users with basic mathematical calculations and other related functions. Users can utilize this module for solving arithmetic operations, evaluating mathematical expressions, and performing trigonometric calculations. The Computing Machine simplifies complex equations, simplifies expressions, and offers quick solutions for users' mathematical needs.
-3. Utility
+## Commands
 
-The Utility module incorporates basic utility functions that assist users with conversions and encoding tasks. This module enables users to convert between various units, such as length, temperature, and currency. Additionally, it provides encoding and decoding functionalities for different formats, including Base64 and URL encoding.
-4. Processing
+The bot provides several commands to perform various tasks. Here's an overview of the available command categories:
 
-The Processing module offers basic processing capabilities within The Computing Machine bot. Users can execute code snippets in supported languages, allowing them to quickly test and run code directly within the Discord environment. Additionally, the Processing module provides OCR functionality to extract text from images or screenshots.
-5. Generation
+### Calculus
 
-The Generation module leverages AI capabilities to generate code snippets and assist with text completion. Users can request AI-generated code for specific tasks or utilize the text completion feature to automatically generate suggested completions for partially written sentences. This functionality aids in automating code generation and enhancing text-based interactions.
-Syntax and Language
+The calculus commands allow you to solve basic calculus problems. Here are the available calculus commands:
 
-Since The Computing Machine bot is built in Python, it predominantly uses Pythonic syntax throughout its functionalities. Users can interact with the bot by sending commands and providing the required input parameters in Python-like format.
-Conclusion
+- `!calculus differentiation`: Find the derivative of a given function.
+- `!calculus integrate`: Integrate a function indefinitely.
+- `!calculus integrate_finite`: Integrate a function over a finite interval.
 
-The Computing Machine Discord bot is a valuable tool for users seeking assistance with various computational tasks. With its Calculus, Math, and Utility modules, the bot provides efficient solutions for calculus problems, mathematical calculations, and basic utility operations. The Processing module enables code execution and includes OCR functionality for text extraction. The Generation module leverages AI to generate code snippets and assist with text completion. Overall, The Computing Machine bot simplifies computational tasks and enhances productivity within the Discord environment.
+### Math
+
+The math commands help you solve basic mathematical problems. Here are the available math commands:
+
+- `!math evaluate`: Evaluate simple mathematical expressions. Leave spaces between each element of the expression.
+- `!math average`: Find the average of a list of integers.
+- `!math graph`: Plot the graph of a function. Use Pythonic expression for your function, where `x` and `y` variables are supported.
+- `!math quadratic`: Solve quadratic equations.
+- `!math hash`: Hash a string using different algorithms. Supported algorithms are MD5, SHA1, and SHA256.
+- `!math generation`: Generate a random mathematical expression.
+
+### Utility
+
+The utility commands provide basic utility functions for conversions and encoding/decoding. Here are the available utility commands:
+
+- `!utility unit_convert`: Easily convert between different units. Supported units include length, weight, volume, temperature, and more.
+- `!utility base_convert`: Convert numbers between different number bases.
+- `!utility encode`: Encode a string using different encoding schemes.
+- `!utility decode`: Decode an encoded string using different encoding schemes.
+
+### Processing
+
+The processing commands allow you to perform various data processing tasks. Here are the available processing commands:
+
+- `!processing ocr`: Perform OCR on a given url of an imag
+- `!processing code_exec`: Execute code in the language of your choice using Piston 
+- `!processing screenshot`: Take screenshot of a website rmeotely.
+
+### Generation
+
+The generation commands enable you to generate random data or expressions. Here are the available generation commands:
+
+- `!generation complete`: Complete a given text blob using A
+- `!generation code_gen`: Generate code from inputted code.
+
+## Additional Resources
+
+Here are some additional resources for the bot:
+
+- [Invite Link](https://t.ly/qWsI): Use this link to invite the bot to your Discord server.
+- [Discord Support Server](https://discord.gg/A3qtmCK4EK): Join the support server to get assistance or discuss the bot.
+- [GitHub Repository](https://www.github.com): Visit the bot's GitHub repository for more information and to contribute to its development.
+
+That's it! You're now ready to use the bot and explore its various features. If you have any questions or need further assistance, feel free to reach out in the support server.
+
+Happy botting!
